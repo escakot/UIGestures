@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TapViewController.h
 //  UIGestures
 //
 //  Created by Errol Cheong on 2017-07-07.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TapViewController : UIViewController
 
 @end
-
