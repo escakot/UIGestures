@@ -16,6 +16,7 @@
 		D189101C1F103474003B06B1 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D189101B1F103474003B06B1 /* TapViewController.m */; };
 		D189101F1F103C27003B06B1 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D189101E1F103C27003B06B1 /* PinchViewController.m */; };
 		D18910221F1046B1003B06B1 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18910211F1046B1003B06B1 /* SwipeViewController.m */; };
+		D18910251F1060AA003B06B1 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18910241F1060AA003B06B1 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		D189101E1F103C27003B06B1 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 		D18910201F1046B1003B06B1 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		D18910211F1046B1003B06B1 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		D18910231F1060AA003B06B1 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		D18910241F1060AA003B06B1 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				D189101E1F103C27003B06B1 /* PinchViewController.m */,
 				D18910201F1046B1003B06B1 /* SwipeViewController.h */,
 				D18910211F1046B1003B06B1 /* SwipeViewController.m */,
+				D18910231F1060AA003B06B1 /* RotationViewController.h */,
+				D18910241F1060AA003B06B1 /* RotationViewController.m */,
 				D18910001F1030D4003B06B1 /* Supporting Files */,
 			);
 			path = UIGestures;
@@ -168,6 +173,7 @@
 				D18910191F10345A003B06B1 /* PanViewController.m in Sources */,
 				D18910051F1030D4003B06B1 /* AppDelegate.m in Sources */,
 				D189101F1F103C27003B06B1 /* PinchViewController.m in Sources */,
+				D18910251F1060AA003B06B1 /* RotationViewController.m in Sources */,
 				D18910221F1046B1003B06B1 /* SwipeViewController.m in Sources */,
 				D189101C1F103474003B06B1 /* TapViewController.m in Sources */,
 				D18910021F1030D4003B06B1 /* main.m in Sources */,

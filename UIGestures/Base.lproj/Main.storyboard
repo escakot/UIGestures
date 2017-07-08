@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Swipe-->
         <scene sceneID="B7a-iC-d8S">
             <objects>
                 <viewController id="QRN-ZQ-vre" customClass="SwipeViewController" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.53815987929999998" green="1" blue="0.83999999999999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="3gT-6n-5xy"/>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="3gT-6n-5xy"/>
                     <connections>
                         <outlet property="brownView" destination="oZq-jw-plT" id="RRD-MR-JMT"/>
                         <outlet property="whiteView" destination="yWm-1i-14s" id="nXc-NV-MRy"/>
@@ -61,6 +61,25 @@
             </objects>
             <point key="canvasLocation" x="-1420" y="370"/>
         </scene>
+        <!--Rotate-->
+        <scene sceneID="sy2-Co-4DX">
+            <objects>
+                <viewController id="kvM-ue-G9s" customClass="RotationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ciz-V7-aCM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zbg-5j-fxc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mt6-oR-4Wr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotate" image="item5" id="v8f-Sc-AcG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uf6-wV-VGz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1420" y="-367"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vCi-lk-95l">
             <objects>
@@ -75,6 +94,7 @@
                         <segue destination="iOO-QZ-d2l" kind="relationship" relationship="viewControllers" id="BLh-In-Xcs"/>
                         <segue destination="0Af-AN-FXZ" kind="relationship" relationship="viewControllers" id="dae-TN-hk6"/>
                         <segue destination="QRN-ZQ-vre" kind="relationship" relationship="viewControllers" id="HTN-hU-SgV"/>
+                        <segue destination="kvM-ue-G9s" kind="relationship" relationship="viewControllers" id="gtW-Tr-eU0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vy-m8-btJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -159,5 +179,7 @@
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>
