@@ -95,6 +95,7 @@
                         <segue destination="0Af-AN-FXZ" kind="relationship" relationship="viewControllers" id="dae-TN-hk6"/>
                         <segue destination="QRN-ZQ-vre" kind="relationship" relationship="viewControllers" id="HTN-hU-SgV"/>
                         <segue destination="kvM-ue-G9s" kind="relationship" relationship="viewControllers" id="gtW-Tr-eU0"/>
+                        <segue destination="6dP-3o-sLK" kind="relationship" relationship="viewControllers" id="DG6-D9-VlP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vy-m8-btJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,6 +140,25 @@
             </objects>
             <point key="canvasLocation" x="287" y="338"/>
         </scene>
+        <!--EdgePan-->
+        <scene sceneID="euN-fC-4yP">
+            <objects>
+                <viewController id="6dP-3o-sLK" customClass="EdgePanViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M6p-m0-LPZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="y14-t7-z9Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wyd-8P-1XO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.9571944641129948" green="0.77266377898102623" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="EdgePan" image="item6" id="6xa-D6-Dhx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fd-5L-zAL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594" y="-797"/>
+        </scene>
         <!--Pan-->
         <scene sceneID="5Km-gQ-M2b">
             <objects>
@@ -181,5 +201,6 @@
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
         <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
     </resources>
 </document>
